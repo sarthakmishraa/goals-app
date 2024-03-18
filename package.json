@@ -4,7 +4,8 @@
   "description": "MERN app to set goals",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js"
+    "start": "node backend/server.js",
+    "client": "npm start --prefix frontend"
   },
   "author": "Sarthak Mishra",
   "license": "MIT",
